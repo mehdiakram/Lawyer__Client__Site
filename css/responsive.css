@@ -1,0 +1,447 @@
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1320px;
+		margin: auto;
+	}
+
+	.tick__mark__text {
+		padding: 0 4rem;
+	}
+}
+
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1500px;
+		margin: auto;
+	}
+
+}
+
+@media (min-width: 1800px) {
+	.container {
+		max-width: 1680px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 2000px) {
+	.container {
+		max-width: 1880px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 1399px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	section {
+		padding: 10rem 0;
+	}
+	
+	.firm__section,
+	.stuff__section,
+	.successful__applications,
+	.trusted__business,
+	.customer__success,
+	.contact__section {
+		padding-top: 9rem;
+	}
+	
+	.banner__column-text h1,
+	h2.heading__title {
+		font-size: 7rem;
+		line-height: 7rem;
+	}
+
+	.paragraph-1 {
+		font-size: 1.8rem;
+	}
+
+	.header__btn a,
+	.custom_btn1,
+	.custom_btn2,
+	.successful__applications__link__btn a,
+	.stuff__link__btn a {
+		padding: 1.5rem 4rem;
+		font-size: 1.6rem;
+	}
+
+	/*=== HEADER SECTION ===*/
+	.nav__menu ul li {
+		margin-right: 2.5rem;
+	}
+
+	.nav__menu ul li a {
+		font-size: 1.6rem;
+	}
+
+	.banner__column-text {
+		padding-left: 14rem;
+	}
+
+	/*=== TRICK SECTION ===*/
+	.tick__mark__text {
+		padding: 0 1.5rem;
+	}
+
+	/*=== TESTIMONIAL 2 SECTION ===*/
+	.slider__content p {
+		font-size: 3.5rem;
+		line-height: 3.9rem;
+	}
+}
+
+@media (max-width: 1199px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+
+	.col_lg_mb {
+		margin-bottom: 3rem;
+	}
+
+	.paragraph-1 {
+		font-size: 1.8rem;
+	}
+
+	/*=== HEADER SECTION ===*/
+	.nav__menu {
+		position: fixed !important;
+		top: 0;
+		left: -100%;
+		width: 400px !important;
+		text-align: center;
+		background: #fff;
+		display: block !important;
+		height: 100vh;
+		z-index: 9999999999999;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+
+	}
+
+	.show_menu {
+		left: 0;
+	}
+
+	.hide_menu {
+		left: -100%;
+	}
+
+	.nav__menu ul {
+		text-align: center !important;
+		margin-top: 9rem;
+	}
+
+	.nav__menu ul li {
+		margin-right: 0;
+	}
+
+	.nav__menu ul li a {
+		display: inline-block !important;
+	}
+
+	.banner__column1,
+	.banner__column2 {
+		width: 100%;
+	}
+
+	.banner__column-text {
+		padding: 0;
+	}
+
+	.banner__column-text-p {
+		width: 66%;
+		margin: auto;
+	}
+
+	/*== TICK-MARK SECTION ==*/
+	.tick__mark__text {
+		padding: 0rem;
+	}
+
+	/*=== FIRM SECTION ===*/
+	.firm__col__mb {
+		margin-bottom: 6rem;
+	}
+
+	.firm__col__lg__mb {
+		margin-bottom: 6rem;
+	}
+
+	.firm__content__4 {
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 991px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	.col_md_mb {
+		margin-bottom: 3rem;
+	}
+
+	.middle_paragraph {
+		width: 80%;
+	}
+
+	/*=== HEADER SECTION ===*/
+	.banner__column-text-p {
+		width: 72%;
+	}
+	
+	/*=== CUSTOMER-SUCCESS SECTION ===*/
+	.customer__success__column1,
+	.customer__success__column2 {
+		padding: 4rem;
+	}
+	
+	/*=== FOOTER SECTION ===*/
+	.footer__bottom__text {
+		margin-top: 2.2rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	section {
+		padding: 8rem 0;
+	}
+	
+	.firm__section,
+	.stuff__section,
+	.successful__applications,
+	.trusted__business,
+	.customer__success,
+	.contact__section {
+		padding-top: 7rem;
+	}
+
+	.col_sm_mb {
+		margin-bottom: 3rem;
+	}
+
+	.middle_paragraph {
+		width: 100%;
+	}
+
+	.banner__column-text h1,
+	h2.heading__title {
+		font-size: 5.5rem;
+		line-height: 5.5rem;
+	}
+
+	/*==== HEADER SECTION ====*/
+	.header__top_text p {
+		font-size: 1.6rem;
+	}
+
+	.banner__content__area {
+		margin-top: 2rem;
+	}
+
+	.banner__column-text-p {
+		width: 80%;
+	}
+
+	/*=== FIRM SECTION ===*/
+	.firm__col__sm__mb {
+		margin-bottom: 6rem;
+	}
+
+	/*=== TESTIMONIAL 2 SECTION ===*/
+	.slider__content p {
+		font-size: 2.7rem;
+		line-height: 3.2rem;
+	}
+
+	.slider__content h3 {
+		font-size: 2.1rem;
+	}
+	
+	/*=== CUSTOMER-SUCCESS SECTION ===*/
+	.customer__success__tabs-right-content  h2 {
+		font-size: 4.5rem;
+		line-height: 4.7rem;
+	}
+	
+	/*==== FOOTER SECTION ====*/
+	.footer__row_2 {
+		margin-top: 5rem;
+	}
+	.footer__bottom__text {
+		margin-top: 0rem;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	/*=== REUSEBLE COMPONENTS ===*/
+	section {
+		padding: 6rem 0;
+	}
+	.firm__section,
+	.stuff__section,
+	.successful__applications,
+	.trusted__business,
+	.customer__success,
+	.contact__section {
+		padding-top: 5rem;
+	}
+	
+	.m_top_bottom {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	
+	.col_mobail_mb {
+		margin-bottom: 3rem;
+	}
+
+	h2.heading__title {
+		font-size: 3.8rem;
+		line-height: 4rem;
+	}
+
+	.paragraph-1 {
+		font-size: 1.6rem;
+	}
+
+	.header__btn a,
+	.custom_btn1,
+	.custom_btn2,
+	.successful__applications__link__btn a,
+	.stuff__link__btn a {
+		padding: 1.3rem 3rem;
+	}
+
+	.law__advice__text h3,
+	.zoom__call__content h3 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+
+	/*==== HEADER SECTION ====*/
+	.nav__menu {
+		width: 100% !important;
+	}
+
+	.banner__column-text h1 {
+		font-size: 3.9rem;
+		line-height: 3.9rem;
+	}
+
+	.banner__column-text-p {
+		width: 100%;
+	}
+
+	.heading__title br,
+	.banner__column-text h1 br {
+		display: none;
+	}
+
+	/*=== FIRM SECTION ===*/
+	.firm__row__mt {
+		margin-top: 7rem;
+	}
+
+	.firm__content h3 {
+		font-size: 2.5rem;
+	}
+
+	/*===STUFF & SUCCESSFULL APPLICATION SECTION ===*/
+	.successful__applications__link__btn a:first-child,
+	.stuff__link__btn a:first-child {
+		margin-right: 0 !important;
+	}
+
+	.successful__applications__link__btn a:last-child,
+	.stuff__link__btn a:last-child {
+		display: table;
+		margin: auto;
+		margin-top: 1.6rem;
+	}
+
+	/*=== TESTIMONIAL 2 SECTION ===*/
+	.slider__content p {
+		font-size: 2.4rem;
+		margin-bottom: 4rem;
+		line-height: 2.9rem;
+	}
+
+	/*=== MEET SECTION ===*/
+	.meet__title h2,
+	.meet__content__text p:nth-child(2) {
+		margin: 3rem auto;
+	}
+
+	.law__advice__text {
+		margin-bottom: 0rem;
+	}
+	
+	/*=== TRUSTED-BUSINESS SECTION ===*/
+	.trusted__business__content a {
+		margin-top: 3rem;
+	}
+	
+	
+	/*=== CUSTOMER-SUCCESS SECTION ===*/
+	.customer__success-img {
+		margin: 0 auto 3rem;
+	}
+	
+	.customer__success__tabs-right-content  h2 {
+		font-size: 3.5rem;
+		line-height: 3.7rem;
+		margin-bottom: 3rem;
+	}
+	.customer__success-img-title h3,
+	.customer__success__tabs-right-content h3 {
+		font-size: 2.5rem;
+	}
+	
+	.customer__success__tabs ul li a {
+		padding: 1rem 2rem;
+		font-size: 1.4rem;
+	}
+	
+	/*==== FOOTER SECTION ====*/
+	.footer__row_2 {
+		margin-top: 3rem;
+	}
+	.footer__top__content p {
+		margin: 1.5rem 0 3rem;
+	}
+	.footer__top__content h3 {
+		font-size: 2.5rem;
+	}
+
+@media (max-width: 460px) {
+
+	/*==== HEADER SECTION ====*/
+	.banner__column-text a:nth-child(3) {
+		margin-right: 0 !important;
+	}
+
+	.banner__column-text a:nth-child(4) {
+		display: table;
+		margin: auto;
+		margin-top: 1.6rem;
+	}
+
+	/*==== MEET SECTION ====*/
+	.law__advice__img {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.law__advice__img .law__advice__img-item {
+		margin: 0 0 2rem;
+	}
+}
+

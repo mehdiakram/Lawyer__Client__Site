@@ -1,0 +1,481 @@
+/*=========== BASIC ===========*/
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	color: #0c4d68
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+/*==================================*/
+/*=== START REUSEBLE COMPONENTS ===*/
+
+.bg__color {
+	background: #F2F2F2;
+}
+
+section {
+	padding: 12rem 0;
+	overflow: hidden;
+}
+
+.firm__section,
+.stuff__section,
+.successful__applications,
+.trusted__business,
+.customer__success,
+.contact__section {
+	padding-top: 11rem;
+}
+
+.row__mt {
+	margin-top: 7rem;
+}
+.m_top_bottom {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.col_xxl_mb {
+	margin-bottom: 3rem;
+}
+
+.banner__column-text h1,
+h2.heading__title {
+	font-family: 'FreightDispProSemibold';
+	font-size: 8rem;
+	line-height: 8rem;
+}
+
+.middle_paragraph {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.paragraph-1 {
+	font-family: 'Gotham-Medium';
+	font-size: 2rem;
+	line-height: 2.6rem;
+}
+
+.paragraph-2 {
+	font-family: 'Gotham-Book';
+	font-size: 1.6rem;
+	color: #434444;
+	line-height: 2.6rem;
+}
+
+/*== CUSTOM BTN ==*/
+.custom_btn1,
+.custom_btn2 {
+	padding: 2.7rem 5rem;
+	font-weight: 600;
+	display: inline-block;
+	background: #f2f2f2;
+	text-transform: capitalize;
+	font-size: 1.8rem;
+	color: #0c4d68 !important;
+	border: 1px solid #afafaf;
+}
+
+.header__btn a,
+.custom_btn2,
+.custom_btn3 {
+	background: linear-gradient(#19ACCF, #1080B5) !important;
+	color: #fff !important;
+}
+
+.custom_btn2:hover,
+.zoom__call__content a:hover {
+	box-shadow: 0 7px 20px 0 rgba(24, 168, 205, 0.6);
+	-webkit-transform: translateY(-.3rem);
+	-ms-transform: translateY(-.3rem);
+	transform: translateY(-.3rem);
+}
+
+a.text__link {
+	font-family: 'Gotham-Medium';
+	font-size: 1.8rem;
+	color: #1596c2;
+}
+
+/*== LAW & ZOOM CALL TITLE ==*/
+.law__advice__text h3,
+.zoom__call__content h3 {
+	font-family: 'FreightDispProSemibold';
+	font-size: 5rem;
+	line-height: 5rem;
+}
+
+/*== ALL TRANSITION ==*/
+.custom_btn2,
+.stuff__link__btn a,
+.zoom__call__content a,
+.customer__success__tabs ul li a {
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+/*=== END REUSEBLE COMPONENTS ===*/
+/*================================*/
+
+
+/*============= START HEADER SECTION =============*/
+.header__top_text {
+	background: #EBF4F8;
+	padding: 1.3rem 0 1.1rem;
+}
+
+.header__top_text p {
+	font-family: 'Gotham-Book';
+	font-size: 1.8rem;
+}
+
+.header__top_text p a {
+	text-decoration: underline #000;
+	color: #0c4d68;
+}
+
+/*== MENU & LOGO ==*/
+a.logo {
+	font-size: 2.8rem;
+	color: #000;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.close_icon,
+.menu-btn {
+	font-size: 3rem;
+	color: #232323;
+	box-shadow: 0px 0 10px 5px rgba(178, 178, 178, 0.3);
+	width: 4.5rem;
+	height: 4.5rem;
+	cursor: pointer;
+}
+
+.close_icon {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	font-size: 2rem;
+	width: 4rem;
+	height: 3rem;
+}
+
+.nav__menu ul li {
+	margin-right: 4rem;
+}
+
+.nav__menu ul li a {
+	font-family: 'Gotham-Book';
+	padding: 0 !important;
+	font-size: 1.8rem;
+	color: #17202A;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.nav__menu ul li a:hover {
+	color: #1596c2;
+}
+
+.header__btn a {
+	padding: 2.1rem 4rem;
+	font-size: 1.6rem;
+}
+
+/*== BANNER CONTENT ==*/
+.banner__content__area {
+	margin-top: 5rem;
+}
+
+.banner__column1 {
+	width: 60%;
+}
+
+.banner__column2 {
+	width: 40%;
+}
+
+.banner__column-text {
+	padding: 0 3rem 0 20rem;
+}
+
+.banner__column-img-box {
+	margin-left: 4.5rem;
+}
+
+/*============= END HEADER SECTION =============*/
+
+/*============= START TICK-MARK SECTION =============*/
+
+.tick__mark__section {
+	padding-top: 4rem;
+}
+
+.tick__mark__row {
+	padding-bottom: 10rem;
+}
+
+.tick__mark__text {
+	padding: 0 6rem;
+}
+
+.tick__mark__text h3 {
+	font-family: 'FreightDispProBold';
+	font-size: 2rem;
+}
+
+.tick__mark__bottom-title h2 {
+	font-size: 10rem;
+}
+
+.tick__mark__bottom-title h2:last-child {
+	color: #1596c2;
+}
+
+.tick__mark__bottom-limk {
+	margin-top: 4rem;
+}
+
+.tick__mark__bottom-limk a:hover {
+	color: #0c4d68;
+}
+
+/*============= END TICK-MARK SECTION =============*/
+
+
+/*============= START FIRM SECTION =============*/
+.firm__row__mt {
+	margin-top: 10rem;
+}
+
+.firm__col__mb {
+	margin-bottom: 10rem;
+}
+
+.firm__content h3 {
+	font-family: 'FreightDispProSemibold';
+	font-size: 3.2rem;
+	margin: 3rem 0;
+}
+
+.firm__bottom-limk {
+	margin-top: 8rem;
+}
+
+/*============= END FIRM SECTION =============*/
+
+
+/*============= START STUFF & SUCCESSFULL APPLICATION SECTION =============*/
+/*== here stuff & successfull application style ==*/
+.successful__applications__content-help-text h3 .stuff__content-sponsorship-text h3 {
+	font-family: 'FreightDispProBold';
+	font-size: 2.4rem;
+}
+
+.successful__applications__content-help-text ul li,
+.stuff__content-sponsorship-text ul li {
+	font-family: 'Gotham-Book';
+}
+
+.successful__applications__link__btn,
+.stuff__link__btn {
+	margin-top: 6rem;
+}
+
+.successful__applications__link__btn a,
+.stuff__link__btn a {
+	padding: 2.7rem 7rem;
+}
+
+.stuff__link__btn a:last-child:hover {
+	background: #0C4D68;
+	color: #fff !important;
+}
+
+/*============= END STUFF & SUCCESSFULL APPLICATION SECTION =============*/
+
+
+/*===== START 2 TESTIMONIAL SECTION STYLE =====*/
+/*== Here is the style seat of the two section slider ==*/
+.testimonial__1,
+.testimonial__2 {
+	padding-top: 2rem;
+}
+
+.column_outline_remove {
+	outline: 0 !important;
+}
+
+.slider__content p,
+.slider__content h3 {
+	font-family: 'FreightDispProSemibold';
+}
+
+.slider__content p {
+	font-size: 4rem;
+	line-height: 4.3rem;
+	margin-bottom: 5rem;
+}
+
+.slider__content h3 {
+	font-size: 2.4rem;
+}
+
+/*===== END 2 TESTIMONIAL SECTION STYLE =====*/
+
+
+/*============= START MEET SECTION =============*/
+.meet__img img {
+	width: 16rem;
+	height: 16rem;
+}
+.law__advice__text {
+	margin-bottom: 8rem;
+}
+
+.law__advice__text p a {
+	text-decoration: underline #000;
+	color: #0c4d68;
+}
+
+/*============= END MEET SECTION =============*/
+
+
+/*============= START ZOOM-CALL SECTION =============*/
+.zoom__cal__section {
+	background: linear-gradient(to right, #063A54, #1C7F9C);
+}
+
+.zoom__call__content a {
+	border: 0;
+}
+
+.zoom__call__content a:hover {
+	background: linear-gradient(#19ACCF, #1080B5);
+	color: #fff !important;
+}
+
+/*============= END ZOOM-CALL SECTION =============*/
+
+
+/*============= START TRUSTED-BUSINESS SECTION =============*/
+
+.trusted__business__content a {
+	margin-top: 4rem;
+}
+/*============= END TRUSTED-BUSINESS SECTION =============*/
+
+
+/*============= START CUSTOMER-SUCCESS SECTION =============*/
+.customer__success__tabs ul li a.active {
+	background: #0C4D68 !important;
+	color: #fff !important;
+}
+.customer__success__tabs ul li:first-child a {
+	border-radius: 5rem 0 0 5rem;
+	border-left: 1px solid #afafaf;
+}
+.customer__success__tabs ul li:last-child a {
+	border-radius: 0 5rem 5rem 0;
+	border-right: 1px solid #afafaf;
+}
+
+.customer__success__tabs-right-content h2 {
+	font-family: 'FreightDispProSemibold';
+	font-size: 5rem;
+	line-height: 5.2rem;
+	margin-bottom: 5rem;
+}
+.customer__success__column1 {
+	padding: 6rem 4rem 6rem 6rem;
+}
+
+.customer__success-img {
+	width: 17rem;
+	height: 17rem;
+	border: 1px solid #afafaf;
+	margin-right: 4.5rem;
+}
+
+.customer__success-img-title h3,
+.customer__success__tabs-right-content h3 {
+	font-family: 'FreightDispProSemibold';
+	font-size: 3.2rem;
+	color: #0c4d68;
+}
+
+/*============= END CUSTOMER-SUCCESS SECTION =============*/
+
+
+/*============= START CONTACT SECTION =============*/
+.contact__section {
+	background: linear-gradient(to right, #063A54, #1C7F9C);
+}
+
+.contact__form input.contact__form-item {
+	outline: none !important;
+	border: none !important;
+	font-family: 'Gotham-Book';;
+	padding: 2rem 2rem 1.5rem 2rem;
+	font-size: 2rem;
+	color: #3e3e3e;
+	width: 100%;
+	display: block;
+	background: #fff !important;
+	margin-bottom: 1.2rem;
+}
+
+.contact__form input::placeholder {
+	color: #000;
+}
+
+.contact__form input[type="submit"] {
+	outline: none !important;
+	border: none !important;
+	margin-top: 2.6rem;
+}
+
+/*============= END CONTACT SECTION =============*/
+
+
+/*============= START FOOTER SECTION =============*/
+footer {
+	background: #0C3D52;
+	padding: 6rem 0 4rem;
+}
+
+.footer__row_2 {
+	margin-top: 8rem;
+}
+.footer__top__text h3 {
+	font-family: 'MyriadPro-Regular';
+	font-size: 3.2rem;
+}
+.footer__top__text p {
+	font-family: 'MyriadPro-Regular';
+	margin: 2.5rem 0;
+}
+.footer__bottom__text p {
+	font-family: 'MyriadPro-Regular';
+}
+
+.footer__bottom__text {
+	margin-top: 4.2rem;
+}
+.footer__link ul li a:hover {
+	color: #1595c1 !important;
+}
+/*============= END FOOTER SECTION =============*/
